@@ -3,7 +3,7 @@
 > 基于DelayQueue的简单的定时任务队列
 
 ## Quick Start
-```
+```Java
 // 初始化任务队列
 JobScheduler scheduler = new JobScheduler("default");
 // 向队列中添加任务,每1s打印一行文本
